@@ -46,3 +46,9 @@ which is a good ratio often cited as a benchmark for a good assist-to-turnover r
 - if the player took a lot of field goal attempts to achieve high points on average, or how many turnovers to achieve high assists. 
 - Other metrics needs to be included to provide a better evaluation of the player besides the traditional metrics.
 - For deeper evaluations it would need more data like how much Field Goal Attempts had opponents contesting the shot or how much of the rebounds were contested?
+
+## Measures/PBI Queries
+Average Points Per Game = AVERAGE(nba[PTS])
+Filters
+- is greater than
+
