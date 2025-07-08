@@ -21,7 +21,7 @@ Dashboard Link: https://github.com/johnhu25/PowerBI-Dashboards/blob/main/NBA.pbi
 - Formula = (Field Goals Made + 0.5 * 3-Pointers Made) / Field Goal Attempts
 
 ## Dashboard Overview
-- To filter outliers I recommend filtering to at least 50 games.
+To filter outliers I recommend filtering to at least 50 games.
 
 Regular Season Leaders 2024-2025 (Using 50+ Played Games)
 - This Dashboard shows the players season average statistics and able to filter the data based on Team, Player, Position and Games.
