@@ -42,7 +42,7 @@ which is a good ratio often cited as a benchmark for a good assist-to-turnover r
 - Total Average points are increasing this can be correlated with the increase of 3 point scoring.
 
 ## Conclusion
-Using traditional statistics like Points, Assist, Rebounds, Blocks per game while can be good indicators of evaluating a player, these statistics do not show other metrics on evaluating
-if the player took a lot of field goal attempts to achieve high points on average, or how many turnovers to achieve high assists. 
-Other metrics needs to be included to provide a better evaluation of the player besides the traditional metrics.
-For deeper evaluations it would need more data like how much Field Goal Attempts had opponents contesting the shot or how much of the rebounds were contested?
+- Using traditional statistics like Points, Assist, Rebounds, Blocks per game while can be good indicators of evaluating a player, these statistics do not show other metrics on evaluating.
+- if the player took a lot of field goal attempts to achieve high points on average, or how many turnovers to achieve high assists. 
+- Other metrics needs to be included to provide a better evaluation of the player besides the traditional metrics.
+- For deeper evaluations it would need more data like how much Field Goal Attempts had opponents contesting the shot or how much of the rebounds were contested?
