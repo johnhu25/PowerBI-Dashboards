@@ -23,7 +23,7 @@ Dashboard Link: https://github.com/johnhu25/PowerBI-Dashboards/blob/main/NBA.pbi
 ## Dashboard Overview
 To filter outliers I recommend filtering to at least 50 games.
 
-Regular Season Leaders 2024-2025 (Using 50+ Played Games)
+**Regular Season Leaders 2024-2025 (Using 50+ Played Games)**
 - This Dashboard shows the players season average statistics and able to filter the data based on Team, Player, Position and Games.
 - Data shows Shai Gilegous-Alexander is a dynamic scorer as he has the highest points on average at 32.70 which is more then 21 points on average.
     - A higher on average Field Goal Percentage at 52% more then 5% on average.
@@ -35,7 +35,7 @@ Regular Season Leaders 2024-2025 (Using 50+ Played Games)
 which is a good ratio often cited as a benchmark for a good assist-to-turnover ratio. 
 - Generally Centers have higher then average Field Goal percentages.
 
-3 Point Dashboards
+**3 Point Dashboards**
 - 3 Point Percentages haven't fluctuated too much since 1994 - 1995 Season.
 - 3 Point Attempts has been slowly rising and has peaked at 37.60, which looking at the trend it should increase each year.
 - Total 3 Points is increasing each year.
