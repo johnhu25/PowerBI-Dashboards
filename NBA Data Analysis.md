@@ -1,4 +1,4 @@
-Dashboard Link: https://github.com/johnhu25/PowerBI-Dashboards/blob/main/NBA.pbix
+Dashboard Link: https://github.com/johnhu25/PowerBI-Dashboards/blob/main/NBA.pbix?raw=true
 
 ## Executive Summary
 - The first dashboard analyses individual NBA player performance using publicly available player statistics from the 2024 - 2025 season the dashboard to assist NBA teams in evaluating player talent.
