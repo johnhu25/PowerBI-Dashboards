@@ -17,16 +17,16 @@ This dashboard merges space allocation data with booking activity to uncover tre
 - employee_bookings.csv All bookings made on desks, with status & attendance
 
 # Problem Statement
-How to use this data to know if spaces are underutilised.
+How to use this data to know if spaces are under utilised.
 
 # Descriptive Statistics
 Space Information
 Metric	Value
-Total Workspaces	1,567
-Bookable Desks	1,005 (64%)
-Unused Desks (No Last Used)	1,508 (96%)
-Desks Under Maintenance	~300
-Most Common Space Type	Office Desk
+Total Workspaces 1,567
+Bookable Desks 1,005 (64%)
+Unused Desks 1,508
+Desks Under Maintenance	300
+Most Common Space Type Office Desk
 
 Booking Activity 
 Metric	Value
