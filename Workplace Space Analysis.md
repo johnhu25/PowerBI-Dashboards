@@ -5,11 +5,10 @@ Dashboard Link: https://github.com/johnhu25/PowerBI-Dashboards/blob/main/Space%2
 This dashboard merges space allocation data with booking activity to uncover trends in desk usage, availability, check-in behavior, and occupancy patterns across buildings and countries.
 
 # Key Findings:
-
 - 5,648 bookings were made across 1,567 desks.
 - Only 44% of bookings resulted in check-ins.
 - Meeting Rooms and Office Desks are the most frequently used space types.
-- Over 1 in 5 bookings were not checked in, indicating potential ghost bookings or no-shows.
+- Over 1 in 5 bookings were not checked in, indicating potential ghost bookings or did not go.
     
 # Data Sources
 - Generated with Faker https://pypi.org/project/Faker/
@@ -21,19 +20,17 @@ How to use this data to know if spaces are under utilised.
 
 # Descriptive Statistics
 Space Information
-Metric	Value
-Total Workspaces 1,567
-Bookable Desks 1,005 (64%)
-Unused Desks 1,508
-Desks Under Maintenance	300
-Most Common Space Type Office Desk
+Total Workspaces: 1,567
+Bookable Desks: 1,005 (64%)
+
+Desks Under Maintenance: 300
+Most Common Space Type: Office Desk
 
 Booking Activity 
-Metric	Value
-Total Bookings	5,648
-Bookings with Check-in	2,508 (44%)
-Booking Not Checked In	3,140 (56%)
-Cancelled Bookings	535
+Total Bookings: 5,648
+Bookings with Check-in: 2,508 (44%)
+Booking Not Checked In: 3,140 (56%)
+Cancelled Bookings: 535
 Most Booked Building: Celestial Tower
 Least Booked Building: Royal Heights
 
