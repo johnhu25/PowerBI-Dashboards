@@ -1,5 +1,5 @@
 # PowerBI-Dashboards
 Dashboards I have created
 
-Space Utilisation: https://github.com/johnhu25/PowerBI-Dashboards/blob/main/Workplace%20Space%20Analysis.md  
+Workplace Space Utilisation: https://github.com/johnhu25/PowerBI-Dashboards/blob/main/Workplace%20Space%20Analysis.md  
 NBA = https://github.com/johnhu25/PowerBI-Dashboards/blob/main/NBA%20Data%20Analysis.md
