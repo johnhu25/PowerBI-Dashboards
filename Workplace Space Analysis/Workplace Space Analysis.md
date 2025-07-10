@@ -1,4 +1,5 @@
 Dashboard Link: https://github.com/johnhu25/PowerBI-Dashboards/blob/main/Workplace%20Space%20Analysis/Space%20Utilisation.pbix
+Download PDF: https://github.com/johnhu25/PowerBI-Dashboards/blob/main/Workplace%20Space%20Analysis/Space%20Utilisation.pdf
 
 # Executive Summary
 
