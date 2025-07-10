@@ -5,7 +5,8 @@ Dashboard Link: https://github.com/johnhu25/PowerBI-Dashboards/blob/main/Space%2
 This dashboard merges space allocation data with booking activity to uncover trends in desk usage, availability, check-in behavior, and occupancy patterns across buildings and countries.
 
 # Problem Statement
-How to know if spaces are under utilised and if
+Despite a substantial number of workspace bookings across global locations (5,113 non cancelled total bookings in 2025), less than half (49%) of these bookings resulted in actual check-ins (2,508). This low utilisation rate, combined with notable geographic and building-level disparities such as Brazil having the highest check-ins and India the lowest, and Celestial Tower being significantly more utilised than Royal Heights indicates inefficiencies in workspace usage and potential gaps in employee engagement or booking policy compliance.
+Additionally, while space types are evenly booked, the relatively high number of cancellations (535) suggests possible issues with booking commitment or system usability.
 
 # Data Sources
 - Generated with Faker https://pypi.org/project/Faker/
@@ -23,72 +24,47 @@ How to know if spaces are under utilised and if
 - Visualisation includes Map, Donut Chart, Column Chart, Area Chart
 - Filters, Location (Country, Building, Floor), Org Unit, Space Type, Date
 
-# Descriptive Statistics
-Space Information
-Total Workspaces: 1,567
-Bookable Desks: 890
-Countries: 7
-Buildings: 7
-Desks Under Maintenance: 156
-Occupied Spaces: 1,176
-Under Maintenance: 156
-Vacant: 235
+# Spaces Overview
 
-Booking Information
-Total Bookings: 5,648
-Bookings with Check-in: 2,508 (44%)
-Booking Not Checked In: 3,140 (56%)
-Cancelled Bookings: 535
-Most Booked Building: Celestial Tower
-Least Booked Building: Royal Heights
-Top Check-In Country: Brazil
-Least Check-In Country: India
+- Total Workspaces: 1,567
+- Bookable Desks: 890
+- Countries: 7
+- Buildings: 7
+- Desks Under Maintenance: 156
+- Occupied Spaces: 1,176
+- Under Maintenance: 156
+- Vacant: 235
 
-
-# Key Findings:
-- 5,648 bookings were made across 1,567 desks across 2025.
-- Only 44% of bookings resulted in check-ins.
-- Meeting Rooms and Office Desks are the most frequently used space types.
-- Over 1 in 5 bookings were not checked in, indicating potential ghost bookings or did not go.
+# Booking Information
+- Total Bookings: 5,648
+- Total Bookiings (Not Cancelled): 5113
+- Bookings with Check-in: 2,508
+- Cancelled Bookings: 535
+- Most Booked Building: Celestial Tower
+- Least Booked Building: Royal Heights
+- Top Check-In Country: Brazil
+- Least Check-In Country: India
+- Top Check-In Rate: Germany
+- Lowest Check-In Rate: Netherlands
 
 # Usage Trends & Patterns
-By Space Type:
-Most Space Type: Office Desk
-Most Booking Space Types: Office Desk
 
-By Country:
-Most Spaces: Brazil
-Least Spaces Germany
-Most Bookable Desks: Australia
-Least Bookable Desks: India
-Brazil had the highest check-ins, suggesting high space utilization or effective attendance.
+- With a 49% Check in rate this indicates that half of the spaces are not used, this causes wasted resources and reduced availability for employees that want to book.
+- 9.5% cancellation rate may be good monitor if it is a healthy rate or too high.
+- Brazil had the highest check-ins due to having the most spaces but with only a 49% check in rate.
+- Netherlands had the lowest check-ins, which may indicate, lower engagement despite booking.
+- Under Maintenance (10%) and Vacant rate (15%) combined 25% is high which means only 75% of spaces are utilised.
 
-India had the lowest check-ins, which may indicate:
-- Higher cancellation.
-- Lower engagement despite booking.
-
-By Building:
-Location popularity
-Availability of amenities
-Team preferences
-Organizational presence
-
-# Check-In & Attendance Analysis
-
-Checked In: 2,508 Only ~44.4% of bookings led to actual check-ins.
-Avg Bookings/Day: 15.52 Reflects daily booking activity.
-Avg Checked In/Day: 6.91 Fewer than half of daily bookings resulted in check-ins.
-Cancelled Bookings: 535 About 9.5% of total bookings were canceled.
-
-
-# Desk Utilization Analysis
-
-
+Things that can affect Attendence
+- Location popularity
+- Availability of amenities
+- Team preferences
+- Organizational presence
 
 # Actionable Insights & Recommendations
 Issue/Opportunity	Recommendation
-High no-show rate (56%)	Enforce stricter check-in rules or auto-release
-Desk underutilization	Reduce or consolidate desks in low-use floors
-Poor Last Used tracking	Sync booking activity with desk metadata system
-Missing team/org linkage	Integrate team/org hierarchy for better filtering
-Underused meeting spaces	Convert to bookable desks or cancel unused slots
+- Investigate Low Check In reasons to assist in improving them by employee feedback.
+- Enforce stricter check-in rules or auto-release.
+- Desk underutilization	Reduce or consolidate desks in low-use floors.
+- Underused meeting spaces convert to bookable desks or cancel unused slots.
+- Investigate
