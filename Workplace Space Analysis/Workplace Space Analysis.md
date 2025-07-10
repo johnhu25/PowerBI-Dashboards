@@ -68,3 +68,46 @@ Issue/Opportunity	Recommendation
 - Desk underutilization	Reduce or consolidate desks in low-use floors.
 - Underused meeting spaces convert to bookable desks or cancel unused slots.
 - Investigate
+
+# Measures/PBI Queries
+
+    Average Bookings Per Days = 
+    VAR TotalBookings =
+    COUNTROWS('employee_bookings')
+    VAR BookingDays =
+    DISTINCTCOUNT('employee_bookings'[Booking Long Date])
+    RETURN
+    DIVIDE(TotalBookings, BookingDays)
+
+    Cancelled Booking Rate = ([Total Bookings (Not Cancelled)]/[Cancelled Bookings])/100
+
+    Cancelled Bookings = 
+    CALCULATE(
+    COUNTROWS('employee_bookings'),
+    'employee_bookings'[Booking Cancelled] = "Yes"
+    )
+
+    Checked In Count = 
+    CALCULATE(
+        COUNTROWS('employee_bookings'),
+        'employee_bookings'[Checked In] = "Yes"
+    )
+
+    Count Country = DISTINCTCOUNT('spaces'[Country])
+
+    Least Booked Buildings = 
+    CALCULATE(
+    FIRSTNONBLANK('employee_bookings'[Building], 1),
+    TOPN(
+        1,
+        SUMMARIZE(
+            'employee_bookings',
+            'employee_bookings'[Building],
+            "BookingCount", COUNTROWS('employee_bookings')
+        ),
+        [BookingCount],
+        ASC
+    )
+    )
+
+    
