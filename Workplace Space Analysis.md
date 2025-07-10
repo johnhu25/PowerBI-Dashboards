@@ -21,9 +21,9 @@ How to use this data to know if spaces are under utilised.
 # Descriptive Statistics
 Space Information
 Total Workspaces: 1,567
-Bookable Desks: 1,005 (64%)
+Bookable Desks: 890
 
-Desks Under Maintenance: 300
+Desks Under Maintenance: 521
 Most Common Space Type: Office Desk
 
 Booking Activity 
