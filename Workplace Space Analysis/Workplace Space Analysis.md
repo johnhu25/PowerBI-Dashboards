@@ -3,11 +3,11 @@ Download PDF: https://github.com/johnhu25/PowerBI-Dashboards/blob/main/Workplace
 
 # Executive Summary
 
-This dashboard merges space allocation data with booking activity to uncover trends in desk usage, availability, check-in behavior, and occupancy patterns across buildings and countries.
+This dashboard integrates space allocation data with booking activity to uncover actionable trends in desk usage, availability, check-in behavior, and occupancy patterns across buildings and countries. By visualizing these metrics together, it enables stakeholders to identify underutilised spaces, optimise capacity planning, and improve workplace efficiency based on real-time and historical user behavior.
 
 # Problem Statement
 Despite a substantial number of workspace bookings across global locations (5,113 non cancelled total bookings in 2025), less than half (49%) of these bookings resulted in actual check-ins (2,508). This low utilisation rate, combined with notable geographic and building-level disparities such as Brazil having the highest check-ins and India the lowest, and Celestial Tower being significantly more utilised than Royal Heights indicates inefficiencies in workspace usage and potential gaps in employee engagement or booking policy compliance.
-Additionally, while space types are evenly booked, the relatively high number of cancellations (535) suggests possible issues with booking commitment or system usability.
+Additionally, is the employee actually sitting at the desk and forgetting to check-in which is resulting in lower check-ins?
 
 # Data Sources
 - Generated with Faker https://pypi.org/project/Faker/
@@ -50,9 +50,9 @@ Additionally, while space types are evenly booked, the relatively high number of
 
 # Usage Trends & Patterns
 
-- With a 49% Check in rate this indicates that half of the spaces are not used, this causes wasted resources and reduced availability for employees that want to book.
+- With a 49% Check-in rate this indicates that half of the spaces are not used, this causes wasted resources and reduced availability for employees that want to book.
 - 9.5% cancellation rate may be good monitor if it is a healthy rate or too high.
-- Brazil had the highest check-ins due to having the most spaces but with only a 49% check in rate.
+- Brazil had the highest check-ins due to having the most spaces but with only a 49% check-in rate.
 - Netherlands had the lowest check-ins, which may indicate, lower engagement despite booking.
 - Under Maintenance (10%) and Vacant rate (15%) combined 25% is high which means only 75% of spaces are utilised.
 
@@ -63,12 +63,12 @@ Things that can affect Attendence
 - Organizational presence
 
 # Actionable Insights & Recommendations
-Issue/Opportunity	Recommendation
-- Investigate Low Check In reasons to assist in improving them by employee feedback.
-- Enforce stricter check-in rules or auto-release.
-- Desk underutilization	Reduce or consolidate desks in low-use floors.
+Issue/Opportunity, Recommendation
+- Investigate Low check-in reasons to assist in improving them by employee feedback.
+- Enforce stricter check-in rules or auto-release or another measurement to know they were utilising the space.
+- Desk underutilization	Reduce or consolidate desks in low-use floors and decrease the vacant rate.
 - Underused meeting spaces convert to bookable desks or cancel unused slots.
-- Investigate
+- Investigate if the employee is sitting at the desk but not check-in.
 
 # Measures/PBI Queries
 
